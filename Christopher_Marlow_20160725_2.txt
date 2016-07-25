@@ -1,0 +1,147 @@
+public class Setters_And_Getters();
+
+1) The size of a disk file
+
+private double discSize;
+
+public double getDiscSize() {
+	return discSize;
+}
+
+public void setDiscSize(double discSize) {
+	this.discSize = discSize;
+}
+
+2) The number of acres in a plot of land
+
+private int acresOfLand;
+
+public int getAcresOfLand() {
+	return acresOfLand;
+}
+
+public void setAcresOfLand(int acresOfLand) {
+	this.acresOfLand = acresOfLand;
+}
+
+3) The name of a file
+
+private String fileName;
+
+public String getFileName() {
+	return fileName;
+}
+
+public void setFileName(String fileName) {
+	this.fileName = fileName;
+}
+
+4) A fully formatted phone number (i.e. "801-803-3638")
+
+private long phoneNumber;
+
+public long getPhoneNumber() {
+	return phoneNumber;
+}
+
+public void setPhoneNumber(long phoneNumber) {
+	this.phoneNumber = phoneNumber;
+}
+
+5) A company name
+
+private String companyName;
+
+public String getCompanyName() {
+	return companyName;
+}
+
+public void setCompanyName(String companyName) {
+	this.companyName = companyName;
+}
+
+6) Today's date
+
+private Date date;
+
+public Date getDate() {
+	return date;
+};
+
+public void setDate(Date date) {
+	this.date = date;
+}
+
+7) The state of a light switch
+
+private boolean lightSwitch;
+
+public boolean isLightSwitch() {
+	return lightSwitch;
+}
+
+public void setLightSwitch(boolean lightSwitch) {
+	this.lightSwitch = lightSwitch;
+}
+
+8) Pi
+
+private float pi;
+
+public float getPi() {
+	return pi;
+}
+
+public void setPi(float pi) {
+	this.pi = pi;
+}
+
+9) The speed of light in a vacuum
+
+private long lightSpeed;
+
+public long getLightSpeed() {
+	return lightSpeed;
+}
+
+public void setLightSpeed(long lightSpeed) {
+	this.lightSpeed = lightSpeed;
+}
+
+10) An instance of a class named Vehicle
+
+private String vehicle;
+
+public String getVehicle() {
+	return vehicle;
+}
+
+public void setVehicle(String vehicle) {
+	this.vehicle = vehicle;
+}
+
+11) An instance of a class named Address
+
+private String address;
+
+public String getAddress() {
+	return address;
+}
+
+public void setAddress(String address) {
+	this.address = address;
+}
+
+12) An array of instances of a class named Product
+
+private String [] productName;
+
+public String[] getProductName() {
+	return productName;
+}
+
+public void setProductName(String[] productName) {
+	this.productName = productName;
+}
+
+
